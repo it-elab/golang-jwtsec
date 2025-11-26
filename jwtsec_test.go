@@ -94,7 +94,7 @@ func TestJwtManager(t *testing.T) {
 			t.Fatalf("CreateToken error: %v", err)
 		}
 
-		time.Sleep(time.Millisecond * 50)
+		time.Sleep(time.Second * 1)
 
 		_, err = m2.VerifyToken(token, ip, user_agent, accept, accept_encoding, accept_language, cache_control)
 		if err == nil {
