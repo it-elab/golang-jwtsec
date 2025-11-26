@@ -1,4 +1,4 @@
-module jwtsec
+module github.com/it-elab/golang-jwtsec
 
 go 1.23.1
 
