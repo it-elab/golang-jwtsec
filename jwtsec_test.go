@@ -1,9 +1,10 @@
 package jwtsec_test
 
 import (
-	"jwtsec"
 	"testing"
 	"time"
+
+	jwtsec "github.com/it-elab/golang-jwtsec"
 )
 
 func TestJwtManager(t *testing.T) {
